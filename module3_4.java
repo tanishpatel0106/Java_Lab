@@ -20,7 +20,7 @@ public class module3_4{
 		String age = sc.nextLine();
 		System.out.print("Enter the branch: ");
 		String branch = sc.nextLine();
-		String str = "\nNAME: " + name + " Roll No.: " + Roll + " Age: " + age + " Branch :" + branch;
+		String str = "\nNAME: " + name + " Roll No.: " + roll + " Age: " + age + " Branch :" + branch;
 		byte b[] = str.getBytes();
 		out.write(b);
 		out.close();
